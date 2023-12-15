@@ -16,6 +16,7 @@ class square():
     def height(self):
         """ Height getter """
         return self.__height
+
     @width.setter
     def width(self, value):
         """ Width setter """
@@ -23,6 +24,7 @@ class square():
             raise ValueError('Width must be greator than zero')
         else:
             self.__width = value
+
     @height.setter
     def height(self, value):
         """ Height setter """
